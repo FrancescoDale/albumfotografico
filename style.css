@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container {
+    padding: 50px;
+}
+
+.add a, .title a, .title {
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+}
+.add a, .title a {
+    color: lightblue;
+}
+
+.title a{
+    float: right;
+}
+.title {
+    margin: 50px 0 ;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.alb {
+    margin: 20px;
+    float: left;
+    width: calc(100% / 6 - 40px);    
+}
+
+.albumimage img {
+    width: 100%;
+}
+
+.album-title, .albumcount {
+    font-style: italic;
+    margin: 10px;
+    color: black;
+}
